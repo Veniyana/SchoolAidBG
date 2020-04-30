@@ -1,0 +1,50 @@
+div.language-page {
+    margin: 1% 5% 1% 5%;
+    text-align: left;
+}
+
+body {
+    background-color: black;
+}
+
+.language {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 15px 10px 15px;
+}
+
+.language p {
+    box-sizing: border-box;
+    border: solid 1px #4A5D80;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #4A5D80 inset;
+    background: radial-gradient(circle, #7797BF, #85A7E6, #94BAFF);
+    opacity: 0.6;
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.select:hover,
+.level p:hover {
+    opacity: 1;
+}
+
+h1 {
+    text-align: center;
+    background-color: #EB7F00;
+    padding: 10px;
+    border-radius: 10px;
+    color: #F3FFE2;
+}
+
+.level,
+.author,
+.spelling {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 40px;
+    margin: 0 10% 0 10%;
+    font-weight: normal;
+}

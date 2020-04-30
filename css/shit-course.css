@@ -1,0 +1,44 @@
+div.biology-page {
+    margin: 1% 5% 1% 5%;
+    text-align: left;
+}
+
+.biology {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    border: solid 1px #F3FFE2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #F3FFE2 inset;
+    background-color: #F3FFE2;
+}
+
+.biology p {
+    margin: 0 3% 0 3%;
+    margin: 10px;
+    box-sizing: border-box;
+    border: solid 1px #1695A3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1695A3 inset;
+    background-color: #ACF0F2;
+    padding: 15px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    background-color: #EB7F00;
+    padding: 10px;
+    border-radius: 10px;
+    color: #F3FFE2;
+}
+
+.resourse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 40px;
+    margin: 0 5%;
+    font-weight: normal;
+}

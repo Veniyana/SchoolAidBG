@@ -1,0 +1,43 @@
+div.main-page {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+h1 {
+    background-color: #EB7F00;
+    padding: 10px;
+    border-radius: 10px;
+    color: #F3FFE2;
+}
+
+p {
+    padding: 15px 15px 15px 15px;
+    margin: 3% 5% 3% 5%;
+    text-align: center;
+    font-size: 25px;
+    border: solid 1px #1695A3;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1695A3 inset;
+    background-color: #ACF0F2;
+}
+
+a {
+    text-decoration: none;
+    color: #225378;
+}
+
+a:visited {
+    color: #225378;
+}
+
+a:hover {
+    color: #EB7F00;
+}
+
+.homepage {
+    display: grid;
+    grid-template: 1fr/1fr;
+    row-gap: 0;
+}
