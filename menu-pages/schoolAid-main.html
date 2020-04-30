@@ -6,11 +6,12 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="../css/schoolAid-main.css">
     <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+    <script src="../javascript/main.js"></script>
 </head>
 
 <body>
-    <nav class="navigation">
-
+    <nav id="navigation" class="navigation">
+    	<span class="closebtn" onclick="closeNav()">&#9776; Затвори меню</span>
         <ul>
             <li>
                 <a href="../menu-pages/schoolAid-main.html"><span class="item">Начало</span></a>
@@ -108,6 +109,9 @@
             </li>
         </ul>
     </nav>
+    <span class="openbtn" onclick="openNav()">&#9776; Меню</span>
+
+
     <div class="main-page">
         <br><br><br>
         <div class="homepage">
