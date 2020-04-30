@@ -1,0 +1,57 @@
+div.math-page {
+    margin: 1% 5% 1% 5%;
+    text-align: left;
+}
+
+body {
+    background: url('../img/math.jpg') fixed center;
+    height: 100%;
+    background-size: cover;
+}
+
+.math {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 15px 10px 15px;
+    border: solid 1px #F3FFE2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #F3FFE2 inset;
+    background-color: #F3FFE2;
+}
+
+.math p {
+    box-sizing: border-box;
+    border: solid 1px #1695A3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1695A3 inset;
+    background-color: #ACF0F2;
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.geometry,
+.algebra {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 40px;
+    margin: 0 10% 0 10%;
+    font-weight: lighter;
+}
+
+h1 {
+    text-align: center;
+    background-color: #EB7F00;
+    margin-top: -2.5px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    color: #F3FFE2;
+}
+
+.level {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 40px;
+    margin: 0 10% 0 10%;
+}
