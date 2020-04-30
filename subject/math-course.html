@@ -5,11 +5,12 @@
     <title>Математика</title>
     <link rel="stylesheet" type="text/css" href="../css/math-course.css">
     <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+    <script src="../javascript/main.js"></script>
 </head>
 
 <body>
-    <nav class="navigation">
-
+    <nav id="navigation" class="navigation">
+        <span class="closebtn" onclick="closeNav()">&#9776; Затвори меню</span>
         <ul>
             <li>
                 <a href="../menu-pages/schoolAid-main.html"><span class="item">Начало</span></a>
@@ -107,6 +108,10 @@
             </li>
         </ul>
     </nav>
+    <span class="openbtn" onclick="openNav()">&#9776; Меню</span>
+
+
+<div class="content" id="content">
     <br><br><br>
     <div class="math-page">
         <h1>Математика</h1>
@@ -142,5 +147,6 @@
 
             </div>
         </div>
+    </div>
     </div>
 </body>
