@@ -1,7 +1,13 @@
+.content{
+    margin: 1%;
+}
+
 .formContainer {
     padding: 0;
-    height: 400px;
-    margin: 1% 25% 1% 25%;
+    height: 560px;
+    width: 850px;
+    margin: auto;
+    /*margin: 1% 25% 1% 25%;*/
     border: 1px darkgrey solid;
     background-color: #ECECEC;
 }
@@ -38,14 +44,14 @@ input {
 
 .registrationForm {
     float: left;
-    margin-left: 2%;
+    margin-left: 10px;
 }
 
 .loginForm {
     float: right;
     background-color: #34495E;
-    margin-right: 2%;
-    height: 245px;
+    margin-right: 20px;
+    height: 245px;px
 }
 
 .registrationTitle {
@@ -168,4 +174,22 @@ a {
 
 .rememberMe {
     color: #eee;
+}
+
+.you_are {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.you_are label {
+    margin: 5px 10px 5px 0;
+}
+
+.you_are input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
