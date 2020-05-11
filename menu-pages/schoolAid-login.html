@@ -43,7 +43,7 @@
                         <a href="../subject/chemistry-course.html"><span class="item">Химия</span></a>
                     </li>
                     <li>
-                        <a href="../subject/phylosophy-course.html"><span class="item">Философия</span></a>
+                        <a href="../subject/philosophy-course.html"><span class="item">Философия</span></a>
                     </li>
                     <li>
                         <a href="../subject/french-course.html"><span class="item">Френски език</span></a>
@@ -111,28 +111,44 @@
     <span class="openbtn" onclick="openNav()">&#9776; Меню</span>
 
 
-<div class="content" id="content">
-    <div class="login-page">
-        <br><br><br>
-        <h1 id="login">SchoolAidBG - Вписване</h1>
-        <div class="login">
-
-            <label class="email" for="email">Имейл: </label>
-            <br>
-            <input type="text" id="email" name="email">
-            <br><br>
-            <label class="password" for="password">Парола: </label>
-            <br>
-            <input type="text" id="password" name="password">
-            <br><br>
-            <input class="button" type="button" value="Продължи">
-            <p class="have-registration">
-                Забравена парола?
-            </p>
-            <p class="have-registration">
-                Нямаш регистрация?
-            </p>
+    <div class="content" id="content">
+        <div class="formContainer">
+            <h1>SchoolAidBG</h1>
+            <p>За да можете да решавате тестове и матури създайте акаунт или влезте в съществуващ такъв</p>
+            <form class="registrationForm" method="POST">
+                <div class="registrationTitle">Регистрация</div>
+                <div class="registrationFields">
+                    <input type="text" name="firstName" placeholder="Име:">
+                    <input type="text" name="lastName" placeholder="Фамилия:">
+                    <input type="email" name="emailRegistration" placeholder="E-mail">
+                    <input type="password" name="password" placeholder="Парола">
+                    <input type="password" name="confirmPassword" placeholder="Потвърди парола">
+                    <input type="text" name="city" placeholder="Населено място:">
+                    <input type="text" name="school" placeholder="Училище:">
+                    <p>Ти си:
+                        <br>
+                        <input type="radio" id="student" name="you're" value="Ученик">
+                        <label for="student">Ученик</label>
+                        <input type="radio" id="teacher" name="you're" value="Учител">
+                        <label for="teacher">Учител</label>
+                        <input type="radio" id="parent" name="you're" value="Родител">
+                        <label for="parent">Родител</label>
+                    </p>
+                    <input type="submit" class="registrationButton" name="register" value="Регистрирай се">
+                </div>
+            </form>
+            <form class="loginForm" method="POST">
+                <div class="loginTitle">Вход</div>
+                <div class="loginFields">
+                    <input type="email" name="emailLogin" placeholder="E-mail">
+                    <input type="password" name="password" placeholder="Парола">
+                    <label for="checkbox"><input type="checkbox" class="checkbox" name="checkbox">
+                      <span class="rememberMe" for="checkbox">Запомняне?</span>
+                    </label>
+                    <input type="submit" class="loginButton" name="loginButton" value="Влез">
+                    <a href="#">Забравена парола</a>
+                </div>
+            </form>
         </div>
-    </div>
     </div>
 </body>

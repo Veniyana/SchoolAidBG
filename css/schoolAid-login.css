@@ -1,59 +1,171 @@
-body {
-    background: #225378 url('../img/school-graduate.jpg') scroll center;
+.formContainer {
+    padding: 0;
+    height: 400px;
+    margin: 1% 25% 1% 25%;
+    border: 1px darkgrey solid;
+    background-color: #ECECEC;
 }
 
-div.login-page {
-    margin: 1% 5% 1% 5%;
+h1,
+p {
+    padding-left: 30px;
+    color: #34495E;
+    font-family: Tahoma, sans-serif
+}
+
+* {
+    box-sizing: border-box;
+}
+
+label {
+    text-align: start;
+    font-size: 20px;
+    display: relative;
+}
+
+.registrationForm,
+.loginForm {
+    display: inline-block;
+    width: 48%;
     text-align: left;
 }
 
-h1 {
-    text-align: center;
-    background-color: #EB7F00;
-    padding: 10px 10px 10px 10px;
-    border-radius: 10px;
-    color: #F3FFE2;
+input {
+    display: block;
+    padding: 2px;
+    margin: 5%;
 }
 
-.login {
-    margin-top: 15px;
-    border: solid 1px #F3FFE2;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #F3FFE2 inset;
-    background-color: #F3FFE2;
-    padding: 10px 15px 10px 15px;
+.registrationForm {
+    float: left;
+    margin-left: 2%;
 }
 
-label.password,
-label.email {
-    padding: 30px 15px 30px 15px;
-    margin: 3% 5% 3% 5%;
-    text-align: start;
-    font-size: 20px;
+.loginForm {
+    float: right;
+    background-color: #34495E;
+    margin-right: 2%;
+    height: 245px;
 }
 
-#email,
-#password {
-    margin: 0 0 0 8%;
+.registrationTitle {
+    text-transform: uppercase;
+    color: #34495E;
+    font-weight: bold;
+    padding: 20px 0 0 20px;
 }
 
-p {
-    padding: 0px 15px 30px 15px;
-    margin: 3% 5% 3% 5%;
-    text-align: start;
-    font-size: 20px;
+.loginTitle {
+    text-transform: uppercase;
+    color: #ECECEC;
+    font-weight: bold;
+    padding: 20px 0 0 20px;
 }
 
-input.button {
-    width: 150px;
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 90%;
+    padding: 2px;
+    height: 25px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: 0 15px 0;
+}
+
+input[type=checkbox]:before {
+    border: 2px #eee solid;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    background-color: #34495E;
+}
+
+input[type=checkbox]:checked:before {
+    border: 2px #eee solid;
+    content: blocked;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    background-color: #34495E;
+    color: #eee;
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid #eee;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+.registrationButton {
+    border: 3px #34495E solid;
+    background-color: #ECECEC;
+    font-size: 15px;
+    font-weight: bold;
+    color: #34495E;
+    margin: 0 0 5% 45%;
     height: 30px;
-    margin: 0 30% 0 30%;
-    background-color: #EB7F00;
-    color: #F3FFE2;
+    width: 50%;
+    cursor: pointer;
 }
 
-p.have-registration {
-    color: #1695A3;
-    font-size: 10px;
-    margin: 0 0 5% 35%;
+.registrationButton:hover {
+    background-color: #34495E;
+    color: #ECECEC;
+}
+
+.loginButton {
+    border: 3px #ECECEC solid;
+    background-color: #34495E;
+    margin: 0 15px 0 0;
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ECECEC;
+    height: 30px;
+    width: 40%;
+    position: inherit;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    border: 3px #34495E solid;
+    background-color: #ECECEC;
+    color: #34495E;
+}
+
+a {
+    color: #ECECEC;
+    float: right;
+    display: block;
+    margin: 0 15px 0 45px;
+}
+
+.label-text {
+    width: 150px;
+    word-break: break-all;
+    float: left;
+}
+
+.rememberMe {
+    color: #eee;
 }
