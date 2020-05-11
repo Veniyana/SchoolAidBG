@@ -112,3 +112,16 @@
         font-size: 18px;
     }
 }
+
+a {
+    text-decoration: none;
+    color: #225378;
+}
+
+a:visited {
+    color: #225378;
+}
+
+a:hover {
+    color: #EB7F00;
+}
