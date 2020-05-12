@@ -1,50 +1,133 @@
-   div.course-page {
-       margin: 1% 5% 1% 5%;
-       text-align: left;
+   .logo {
+       height: 200px;
+       display: block;
+       margin-right: auto;
+       margin-left: auto;
    }
    
    .course {
-       margin-top: 15px;
-       display: grid;
-       grid-template-columns: repeat(2, auto);
-       row-gap: 10px;
-       column-gap: 10px;
-       font-size: 25px;
-       padding: 10px 15px 10px 15px;
-       border: solid 1px #F3FFE2;
-       border-radius: 10px;
-       box-shadow: 0 0 10px #F3FFE2 inset;
-       background-color: #F3FFE2;
+       margin-top: 25px;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       height: 150px;
+       text-align: center;
+       margin: 15px;
    }
    
-   .course p {
-       margin: 10px;
-       box-sizing: border-box;
-       border: solid 1px #1695A3;
-       border-radius: 10px;
-       box-shadow: 0 0 10px #1695A3 inset;
-       background-color: #ACF0F2;
-       padding: 15px;
+   #course-bg {
+       background: url("../img/bulgarian.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-math {
+       background: url("../img/math.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-philosophy {
+       background: url("../img/hylosophy.jpeg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-bio {
+       background: url("../img/biology.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-chemistry {
+       background: url("../img/himia.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-french {
+       background: url("../img/france2.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-geo {
+       background: url("../img/geography.png") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-eng {
+       background: url("../img/english.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-hist {
+       background: url("../img/istoria.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-physics {
+       background: url("../img/fizika.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-russian {
+       background: url("../img/ruski.jpeg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-spanish {
+       background: url("../img/ispanski.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-deutsch {
+       background: url("../img/deutcsch.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
+   }
+   
+   #course-informatic {
+       background: url("../img/informatika.jpg") no-repeat center;
+       background-size: cover;
+       width: 600px;
+       height: 250px;
+       margin: 5px;
    }
    
    h1 {
        text-align: center;
-       background-color: #EB7F00;
-       padding: 10px;
-       border-radius: 10px;
-       color: #F3FFE2;
-       font-weight: bold;
-   }
-   
-   .link {
-       text-decoration: none;
-       color: #225378;
-   }
-   
-   .link:visited {
-       color: #225378;
-   }
-   
-   .link:hover {
-       color: #EB7F00;
+       font-size: 50px;
    }

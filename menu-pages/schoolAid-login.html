@@ -56,53 +56,7 @@
                     </li>
                 </ul>
             </li>
-            <li>
-                <a class="dropdown" href="../menu-pages/schoolAid-supply.html"><span class="item">Материали</span></a>
-                <ul>
-                    <li>
-                        <a href="../material/one.html"><span class="item">1 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/two.html"><span class="item">2 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/three.html"><span class="item">3 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/four.html"><span class="item">4 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/five.html"><span class="item">5 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/six.html"><span class="item">6 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/seven.html"><span class="item">7 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/eight.html"><span class="item">8 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/nine.html"><span class="item">9 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/ten.html"><span class="item">10 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/eleven.html"><span class="item">11 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/twelve.html"><span class="item">12 клас</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/exam.html"><span class="item">Матури</span></a>
-                    </li>
-                    <li>
-                        <a href="../material/examLowerClass.html"><span class="item">НВО</span></a>
-                    </li>
-                </ul>
-            </li>
+
             <li>
                 <a href="../menu-pages/schoolAid-login.html"><span class="item">Профил</span></a>
             </li>
@@ -125,15 +79,15 @@
                     <input type="password" name="confirmPassword" placeholder="Потвърди парола">
                     <input type="text" name="city" placeholder="Населено място:">
                     <input type="text" name="school" placeholder="Училище:">
-                    <p>Ти си:
+                    <p id="you-are">Ти си:
                         <div class="you_are">
-                        <br>
-                        <input type="radio" id="student" name="you're" value="Ученик">
-                        <label for="student">Ученик</label>
-                        <input type="radio" id="teacher" name="you're" value="Учител">
-                        <label for="teacher">Учител</label>
-                        <input type="radio" id="parent" name="you're" value="Родител">
-                        <label for="parent">Родител</label>
+                            <br>
+                            <input type="radio" id="student" name="you're" value="Ученик">
+                            <label for="student">Ученик</label>
+                            <input type="radio" id="teacher" name="you're" value="Учител">
+                            <label for="teacher">Учител</label>
+                            <input type="radio" id="parent" name="you're" value="Родител">
+                            <label for="parent">Родител</label>
                         </div>
                     </p>
                     <input type="submit" class="registrationButton" name="register" value="Регистрирай се">
@@ -148,7 +102,7 @@
                       <span class="rememberMe" for="checkbox">Запомняне?</span>
                     </label>
                     <input type="submit" class="loginButton" name="loginButton" value="Влез">
-                    <a href="#">Забравена парола</a>
+                    <a id="forgotten-pass" href="#">Забравена парола</a>
                 </div>
             </form>
         </div>
