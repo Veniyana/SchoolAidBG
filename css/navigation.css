@@ -118,7 +118,12 @@ a,a:visited,a:hover {
     color: #D962A3;
 }
 
-
+.logo {
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 body {
     background-color: white;

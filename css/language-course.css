@@ -6,12 +6,12 @@ body{
     text-align: center;
 }
 
-ul {
+.language {
     position: absolute;
     width: 100%;
 }
 
-ul li {
+.language li {
     width: 80%;
     padding:15px 0;
     list-style: none;
@@ -24,18 +24,18 @@ ul li {
     margin: 0 0 15px 10%;
 }
 
-ul li:hover{
+.language li:hover{
     color:#D962A3;
 }
 
 
-ul li:hover ul {
+.language li:hover ul {
     position: block;
     display: grid;
     margin-top: 15px;
 }
 
-ul li ul {
+.language li ul {
     display: none;
     grid-template-columns: 1fr 1fr;
     row-gap: 15px;
@@ -45,7 +45,7 @@ ul li ul {
     margin:40px 0;
 }
 
-ul li ul li {
+.language li ul li {
     border: none;
     margin-top: 15px;
     width: 90%;
