@@ -9,14 +9,14 @@
     width: 850px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px darkgrey solid;
-    background-color: #ECECEC;
+    border-radius: 8px;
+    background-color: #275978;
 }
 
 h1,
 p {
     padding-left: 30px;
-    color: #34495E;
+    color: white;
     font-family: Tahoma, sans-serif
 }
 
@@ -46,7 +46,7 @@ input {
 
 .loginForm {
     float: right;
-    background-color: #34495E;
+    background-color: white;
     margin-right: 20px;
     height: 245px;
     margin-top: 20px;
@@ -54,14 +54,14 @@ input {
 
 .registrationTitle {
     text-transform: uppercase;
-    color: #34495E;
+    color: white;
     font-weight: bold;
     padding: 20px 0 0 20px;
 }
 
 .loginTitle {
     text-transform: uppercase;
-    color: #ECECEC;
+    color: #275978;
     font-weight: bold;
     padding: 20px 0 0 20px;
 }
@@ -82,7 +82,7 @@ input[type="checkbox"] {
 }
 
 input[type=checkbox]:before {
-    border: 2px #eee solid;
+    border: 2px #275978 solid;
     content: "";
     display: block;
     position: absolute;
@@ -90,11 +90,11 @@ input[type=checkbox]:before {
     height: 15px;
     top: 0;
     left: 0;
-    background-color: #34495E;
+    background-color: white;
 }
 
 input[type=checkbox]:checked:before {
-    border: 2px #eee solid;
+    border: 2px #275978 solid;
     content: blocked;
     position: absolute;
     width: 15px;
@@ -102,7 +102,7 @@ input[type=checkbox]:checked:before {
     top: 0;
     left: 0;
     background-color: #34495E;
-    color: #eee;
+    color: #275978;
 }
 
 input[type=checkbox]:checked:after {
@@ -110,7 +110,7 @@ input[type=checkbox]:checked:after {
     display: block;
     width: 5px;
     height: 10px;
-    border: solid #eee;
+    border: solid white;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -121,11 +121,11 @@ input[type=checkbox]:checked:after {
 }
 
 .registrationButton {
-    border: 3px #34495E solid;
-    background-color: #ECECEC;
+    border-radius: 8px;
+    background-color: white;
     font-size: 15px;
     font-weight: bold;
-    color: #34495E;
+    color: #275978;
     margin: 0 0 5% 45%;
     height: 30px;
     width: 50%;
@@ -133,18 +133,18 @@ input[type=checkbox]:checked:after {
 }
 
 .registrationButton:hover {
-    background-color: #34495E;
-    color: #ECECEC;
+    background-color: #D962A3;
+    color: #275978;
 }
 
 .loginButton {
-    border: 3px #ECECEC solid;
-    background-color: #34495E;
+    border-radius: 8px;
+    background-color: #275978;
     margin: 0 15px 0 0;
     float: right;
     font-weight: bold;
     font-size: 15px;
-    color: #ECECEC;
+    color: white;
     height: 30px;
     width: 40%;
     position: inherit;
@@ -152,13 +152,12 @@ input[type=checkbox]:checked:after {
 }
 
 .loginButton:hover {
-    border: 3px #34495E solid;
-    background-color: #ECECEC;
-    color: #34495E;
+    background-color: #D962A3;
+    color: #275978;
 }
 
 #forgotten-pass {
-    color: #ECECEC;
+    color: #275978;
     float: right;
     display: block;
     margin: 0px 15px 0 96px;
@@ -171,27 +170,21 @@ input[type=checkbox]:checked:after {
 }
 
 .rememberMe {
-    color: #eee;
+    color: #275978;
 }
 
 .you_are {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    color:white;
 }
 
 .you_are label {
     margin: 5px 10px 5px 0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
-}
-
-.you_are input {
-    vertical-align: middle;
-    margin: 5px 10px 5px 0;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    color:white
 }
 
 #student {
@@ -201,5 +194,5 @@ input[type=checkbox]:checked:after {
 #you-are {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: white;
 }

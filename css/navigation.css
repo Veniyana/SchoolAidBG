@@ -11,7 +11,7 @@
     height: 91%;
     width: 0;
     position: fixed;
-    background-color: #EB7F00;
+    background-color: #275978;
     font-weight: bold;
     z-index: 1;
     overflow-x: hidden;
@@ -34,15 +34,15 @@
     cursor: pointer;
     padding: 10px 15px;
     border: none;
-    background-color: #edebd8;
+    background-color: white;
 }
 
 .openbtn:hover {
-    color: #EB7F00;
+    color: #D962A3;
 }
 
 .closebtn:hover {
-    color: #402121;
+    color: #D962A3;
 }
 
 .navigation ul {
@@ -59,7 +59,7 @@
 }
 
 .navigation ul li a {
-    color: #402121;
+    color: white;
     font-size: 20px;
     line-height: 40px;
     text-decoration: none;
@@ -79,7 +79,7 @@
 }
 
 .navigation ul li ul li a {
-    color: #402121;
+    color: white;
     font-size: 15px;
     line-height: 20px;
     text-decoration: none;
@@ -91,7 +91,7 @@
 .navigation ul li a:hover {
     margin-left: -10px;
     font-weight: bolder;
-    color: black;
+    color: #D962A3;
     font-size: 1.1em;
 }
 
@@ -113,19 +113,13 @@
     }
 }
 
-a {
+a,a:visited,a:hover {
     text-decoration: none;
-    color: #225378;
+    color: #D962A3;
 }
 
-a:visited {
-    color: #225378;
-}
 
-a:hover {
-    color: #EB7F00;
-}
 
 body {
-    background-color: #edebd8;
+    background-color: white;
 }
