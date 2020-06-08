@@ -1,0 +1,56 @@
+body{
+    overflow-x: hidden;
+}
+
+.content{
+    text-align: center;
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+}
+
+.page li {
+    width: 80%;
+    padding:15px 0;
+    list-style: none;
+    position: relative;
+    background-color: #275978;
+    color:white;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 15px 10%;
+}
+
+.page li:hover{
+    color:#D962A3;
+}
+
+
+.page li:hover ul {
+    position: block;
+    display: grid;
+    margin-top: 15px;
+}
+
+.page li ul {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+    position: relative;
+    border-radius: 8px;
+    margin:40px 0;
+}
+
+.page li ul li {
+    border: none;
+    margin-top: 15px;
+    width: 90%;
+    background-color: white;
+    border-radius: 8px;
+    color:#275978;
+    margin-left:5%;
+}

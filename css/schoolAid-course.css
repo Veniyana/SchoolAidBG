@@ -1,0 +1,115 @@
+   .course {
+       margin-top: 25px;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 300px 300px 300px 300px 300px 300px 300px;
+        column-gap: 10px;
+        row-gap:10px;
+       width: 100%;
+       text-align: center;
+       margin: 15px;
+       
+   }
+   
+   #course-bg {
+       background: url("../img/bulgarian.jpg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-math {
+       background: url("../img/math.jpg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-philosophy {
+       background: url("../img/hylosophy.jpeg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-bio {
+       background: url("../img/biology.jpg") no-repeat center;
+       background-size: cover;
+       margin: 5px;
+       border-radius: 8px;
+   }
+   
+   #course-chemistry {
+       background: url("../img/himia.jpg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-french {
+       background: url("../img/france2.jpg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-geo {
+       background: url("../img/geography.png") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-eng {
+       background: url("../img/english.jpg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-hist {
+       background: url("../img/istoria.jpg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-physics {
+       background: url("../img/fizika.jpg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-russian {
+       background: url("../img/ruski.jpeg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-spanish {
+       background: url("../img/ispanski.jpg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-deutsch {
+       background: url("../img/deutcsch.jpg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   #course-informatic {
+       background: url("../img/informatika.jpg") no-repeat center;
+       background-size: cover;
+       border-radius: 8px;
+       margin: 5px;
+   }
+   
+   h1 {
+       text-align: center;
+       font-size: 50px;
+   }

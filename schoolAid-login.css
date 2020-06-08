@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+.formContainer {
+    margin-top: 1%;
+    padding: 0;
+    height: 530px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    background-color: #275978;
+}
+
+h1,
+p {
+    padding-left: 30px;
+    color: white;
+    font-family: Tahoma, sans-serif
+}
+
+label {
+    text-align: start;
+    font-size: 20px;
+    display: relative;
+}
+
+.registrationForm,
+.loginForm {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+
+input {
+    display: block;
+    padding: 2px;
+    margin: 5%;
+}
+
+.registrationForm {
+    float: left;
+    margin-left: 10px;
+}
+
+.loginForm {
+    float: right;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 20px;
+    height: 245px;
+    margin-top: 20px;
+}
+
+.registrationTitle {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0 0 20px;
+}
+
+.loginTitle {
+    text-transform: uppercase;
+    color: #275978;
+    font-weight: bold;
+    padding: 20px 0 0 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 90%;
+    padding: 2px;
+    height: 25px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: 0 15px 0;
+}
+
+input[type=checkbox]:before {
+    border: 2px #275978 solid;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+input[type=checkbox]:checked:before {
+    border: 2px #275978 solid;
+    content: blocked;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    background-color: #34495E;
+    color: #275978;
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+.registrationButton {
+    border-radius: 8px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    color: #275978;
+    margin: 0 0 5% 45%;
+    height: 30px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.registrationButton:hover {
+    background-color: #D962A3;
+    color: #275978;
+}
+
+.loginButton {
+    border-radius: 8px;
+    background-color: #275978;
+    margin: 0 15px 0 0;
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    width: 40%;
+    position: inherit;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    background-color: #D962A3;
+    color: #275978;
+}
+
+#forgotten-pass {
+    color: #275978;
+    float: right;
+    display: block;
+    margin: 0px 15px 0 96px;
+}
+
+.label-text {
+    width: 150px;
+    word-break: break-all;
+    float: left;
+}
+
+.rememberMe {
+    color: #275978;
+}
+
+#you-are {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.you_are {
+    margin-top:-15px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    color:white;
+}
+
+.you_are label {
+    margin: 0px 10px 0 -15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:white
+}
+
+#student {
+    margin-left: 20px;
+}
+
