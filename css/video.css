@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rate {
+  position: absolute;
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+  margin-left: 24%;
+  margin-top: -2%;
+}
+
+.rate:not(:checked) > input {
+  position: relative;
+  top: -9999px;
+}
+
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.grid-video-lessons {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 1fr 1fr;
+  column-count: 2;
+  column-gap: 50px;
+  row-gap: 100px;
+  list-style: none;
+  margin-left: 5%;
+}
+
+#loading {
+  margin-left: 30%;
+}
+#work-with-school-aid-bg {
+  margin-left: 30%;
+  font-weight: bold;
+  font-size: 14px;
+  position: relative;
+}
+
+.rate-finished {
+  position: absolute;
+  margin-left: 63%;
+  margin-top: -18px;
+}
+
+.checked {
+  color: #c59b08;
+}
+.fa-star {
+  background-color: white;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}

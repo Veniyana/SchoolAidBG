@@ -563,7 +563,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 /* Content */
 .showcase-content {
 	text-align: center;
-	
+
 
 }
 
@@ -575,7 +575,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	border: 1px solid #d5d5d5;
 	background-color: #f4f4f4;
 	padding: 9px;
-	
+
 }
 
 .showcase-content-wrapper {
@@ -609,9 +609,9 @@ div.showcase-tooltip {
 	display: none;
 	width:auto;
 	max-width: 70%;
-	background: transparent url(../images/caption.png) repeat; 
+	background: transparent url(../images/caption.png) repeat;
 	color: #606060;
-	padding: 7px 10px; 
+	padding: 7px 10px;
 	line-height: 19px;
 }
 .showcase-onepage .showcase-content {
@@ -673,7 +673,7 @@ div.showcase-tooltip {
 .theme-default .nivo-controlNav {
 	position:absolute;
 	right:5px;
-	bottom:5px; 
+	bottom:5px;
 }
 .theme-default .nivo-controlNav a {
 	margin-right: 5px;
@@ -924,8 +924,8 @@ ul.latest-posts li em.month {
 	margin: 13px 0 0 0;
 	/*padding: 8px 25px 0 25px;*/
 	padding: 15px 20px 15px 20px;
-	
-	
+
+
 }
 
 .post.quote .content .middle .post-text p {
@@ -995,7 +995,7 @@ ul.latest-posts li em.month {
 	background: transparent url(../images/icon-postcomment.png) no-repeat left center;
 	width: 15px;
 	padding-left: 20px;
-	
+
 }
 
 .post .content .middle .meta span.post-link {
@@ -1204,7 +1204,7 @@ ul.cat-list:after {
 .col5 {
 	width: 160px;
 	margin: 0 15px 15px 0;
-	
+
 }
 .col4 {
 	width: 208px;
@@ -1532,11 +1532,11 @@ ol.commentlist li {
 }
 
 #tags {
-    display: table-cell; 
+    display: table-cell;
 }
 
 #tagsLabel {
-	display: table-cell; 
+	display: table-cell;
 	font-weight: normal;
 	font-family: "ClassicRound-Medium";
 	font-size: 18px;
@@ -1641,7 +1641,7 @@ ol.commentlist li {
 
 /* The Modal (background) */
 .modal {
-    display: none; 
+    display: none;
     /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -1668,7 +1668,7 @@ ol.commentlist li {
 	border-collapse:collapse;
 	border-spacing:0;
 }
-.tg td{ 
+.tg td{
 	font-family: 'Museo300Regular';
 	font-size:14px;
 	padding:10px 5px;
