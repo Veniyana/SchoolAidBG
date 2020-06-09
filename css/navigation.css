@@ -117,7 +117,7 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
-  color: #d962a3;
+  /*color: #d962a3;*/
 }
 
 .logo {
