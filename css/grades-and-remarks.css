@@ -1,0 +1,53 @@
+body {
+  overflow-x: hidden;
+}
+
+.content {
+  text-align: center;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+}
+
+
+.orderBy {
+  margin-left: 42%;
+  margin-bottom: 1em;
+  padding: 5px;
+  text-align: center;
+  color: #275978;
+  font-size: 20px;
+}
+
+.grades {
+   border-radius: 8px;
+   background-color: #275978;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.grades table {
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 5px;
+  margin: auto;
+  color: #275978;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.grades th, td {
+  background-color: white;
+  padding: 1em;
+  border: 2px solid #275978; 
+}
+
+.grades th {
+  color: white;
+  background-color: #275978;
+}
+

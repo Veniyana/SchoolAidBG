@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/navigation.css">
-    <script src="../javascript/navigation.js"></script>
+    <meta charset="utf-8">
     <title>Дневник</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="../css/grades-and-remarks.css">
+    <script src="../javascript/navigation.js"></script>
 </head>
+
 <body>
     <nav id="navigation" class="navigation">
         <span class="closebtn" onclick="closeNav()">&#9776; Затвори меню</span>
@@ -56,18 +58,79 @@
                 </ul>
             </li>
             <li>
-                <a href="../menu-pages/schoolAid-video.html"><span class="item">Видео уроци</span></a>
+                <a href="../menu-pages/schoolAid-video.html" class="note"><span class="item">Видео уроци</span></a>
             </li>
             <li>
-                <a href="../menu-pages/schoolAid-login.html"><span class="item">Профил</span></a>
+                <a href="../menu-pages/schoolAid-login.html" class="note"><span class="item">Профил</span></a>
             </li>
         </ul>
-
     </nav>
     <span class="openbtn" onclick="openNav()">&#9776; Меню</span>
 
 
-    <div id="content" class="content">
+    <div class="content">
         <img class="logo" src="../img/logo.png">
+        <div class="page-content">
+            <br>
+            <h1>Дневник</h1>
+            <br>
+            <div class="orderBy">
+                <table id="orderBy" style="width: 30%">
+                    <tr>
+                        <th>Подреди по:</th>
+                        <th>
+                            <input type="radio" id="date" name="orderBy" value="Дата">
+                            <label for="student">Дата</label>
+                            <input type="radio" id="course" name="orderBy" value="Предмет">
+                            <label for="teacher">Предмет</label>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="grades">
+                <table style="width:99%">
+                  <tr>
+                    <th>Дата</th>
+                    <th>Предмет</th>
+                    <th>Оценка</th>
+                  </tr>
+                  <tr>
+                    <td>20.03.2020</td>
+                    <td>Български език и литература</td>
+                    <td>6</td>
+                  </tr>
+                  <tr>
+                    <td>12.04.2020</td>
+                    <td>Български език и литература</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td>15.05.2020</td>
+                    <td>Български език и литература</td>
+                    <td>6</td>
+                  </tr>
+                  <tr>
+                    <td>03.04.2020</td>
+                    <td>Математика</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td>18.05.2020</td>
+                    <td>Математика</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td>17.03.2020</td>
+                    <td>Английски език</td>
+                    <td>6</td>
+                  </tr>
+                  <tr>
+                    <td>19.04.2020</td>
+                    <td>Английски език</td>
+                    <td>6</td>
+                  </tr>
+                </table>
+            </div> 
         </div>
+    </div>
 </body>
