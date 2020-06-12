@@ -7,6 +7,23 @@
     <link rel="stylesheet" type="text/css" href="../css/navigation.css">
     <link rel="stylesheet" type="text/css" href="../css/profile.css">
     <script src="../javascript/navigation.js"></script>
+    <script src="style/js/jquery-1.6.2.min.js"></script>
+    <script>
+        function deleteProfile() {
+            var ask = window.confirm("Наистина ли искате да изтриете акаунта си?");
+            if (ask) {
+                var confirm = window.alert("Заявката ви е изпратена за одобрение от администратор!");
+                document.location.href = "../menu-pages/schoolAid-main.html";
+            } else {
+                document.location.href = "#";
+            }
+        }
+
+        function clearChanges() {
+            var ask = window.confirm("Отменяте ли промените?");
+            document.location.href = "#";
+        }
+    </script>
 </head>
 
 <body>
@@ -71,29 +88,82 @@
     <span class="openbtn" onclick="openNav()">&#9776; Меню</span>
 
 
-    <div class="content">
-        <img class="logo" src="../img/logo.png">
-        <div class="page-content">
-            <br>
-            <h1>Профил</h1>
-            <img class="uPic" src="../img/user-pic.webp" alt="">
-            <ul class="page">
-                <li class="uInfo">Потребителско име: anna-vi04</li>
-                <li class="uInfo">Име: Анна</li>
-                <li class="uInfo">Фамилия: Виденова</li>
-                <li class="uInfo">Населено място: Пловдив</li>
-                <li class="uInfo">Училище: ПМГ Академик Кирил Попов</li>
-                <li class="uInfo">Вид потребител: ученик</li>
-                <li>Настройки</li>
-                <li><a href="../additional-pages/enter-classroom.html">Влезни в класна стая</a></li>
 
-                <li class="resourse">Дневник
-                    <ul>
-                        <li><a href="../additional-pages/grade-book.html">Оценки</a></li>
-                        <li><a href="../additional-pages/remark.html">Забележки</a></li>
-                    </ul>
-                </li>
-            </ul>
+    <div class="wrapper">
+        <div>
+            <a href="#"><img class="logo" src="../img/logo.png" alt=""></a>
+        </div>
+        <div class="clear"></div>
+        <div class="clear"></div>
+        <h3 class="line">Профил</h3>
+        <div class="profile-view">
+            <div class="one-third">
+                <div class="profile-picture">
+                    <img src="../img/user.jpg"></img>
+                    <div class="room">
+                        <a href="#" class="button blue">Влез в стая</a>
+                        <a href="#" class="button red">Създай стая</a>
+                    </div>
+                </div>
+            </div>
+            <div class="two-thirds">
+                <h3 class="line">Информация за профила</h3>
+                <img src="../img/person-icon.png" alt=""><span>&nbsp;&nbsp;Pesho Petev</span>
+                <br>
+                <br>
+                <img src="../img/mail-icon.png" alt=""><span>&nbsp;&nbsp;pesho.petev@abv.bg</span>
+                <br>
+                <br>
+                <img src="../img/facebook-icon.png" alt=""><span>&nbsp;&nbsp;<a href="https://facebook.com">facebook.com/pesho</a></span>
+                <br>
+                <br>
+                <img src="../img/calendar-icon.png" alt=""><span>&nbsp;&nbsp;January 1, 1970</span>
+                <br>
+                <br>
+                <br>
+                <a href="#" class="button blue">Оценки</a><br>
+                <a href="#" class="button green">Забележки</a><br>
+                <a href="#" onclick="deleteProfile()" class="button red">Изтрий профила</a>
+            </div>
+            <div class="last-one">
+                <h3 class="line">Редакция на профила</h3>
+                <form class="forms" action="profile.html" method="post">
+                    <fieldset>
+                        <ol>
+                            <li class="form-row text-input-row">
+                                <label>Име</label>
+                                <input type="text" name="name" value="" class="text-input required name">
+                            </li>
+                            <li class="form-row text-input-row">
+                                <label>Фамилия</label>
+                                <input type="text" name="surname" value="" class="text-input required name">
+                            </li>
+                            <li class="form-row text-input-row">
+                                <label>Email</label>
+                                <input type="email" name="email" value="" class="text-input required email">
+                            </li>
+                            <li class="form-row text-input-row">
+                                <label>Роден/а на</label>
+                                <input type="date" name="date" value="" class="text-input required">
+                            </li>
+                            <li class="form-row text-input-row">
+                                <label>Пол</label><br><br>
+                                <input type="radio" name="gender" value="Мъж" checked> Мъж
+                                <input type="radio" name="gender" value="Жена"> Жена
+                            </li>
+                            <li class="form-row text-input-row">
+                                <label>Телефон</label>
+                                <input type="number" name="phone" value="" class="text-input required">
+                            </li>
+                            <li class="form-row hidden-row">
+                                <input type="hidden" name="hidden" value="">
+                            </li>
+                        </ol>
+                        <a href="#" onclick="alert('Профилът Ви беше обновен!')" class="button green">Редактирай</a>
+                        <a href="#" id="nothing" onclick="clearChanges()" class="button blue">Отмени</a>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </div>
 </body>

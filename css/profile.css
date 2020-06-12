@@ -1,78 +1,183 @@
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 body {
-    overflow-x: hidden;
+    line-height: 1
 }
 
-.content {
-    text-align: center;
+.last {
+    margin-right: 0 !important;
+    clear: right;
 }
 
-.page {
-    position: absolute;
-    width: 100%;
+.forms li.form-row {
+    margin-bottom: 20px;
 }
 
-.page a:hover {
-    text-decoration: none;
-    color: #d962a3;
-}
-
-.page a {
-    color: white;
-}
-
-.page li {
-    width: 80%;
-    padding: 15px 0;
-    list-style: none;
-    position: relative;
-    background-color: #275978;
-    color: white;
-    border-radius: 8px;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 0 0 15px 10%;
-}
-
-.page li:hover {
-    color: #d962a3;
-    cursor: pointer;
-}
-
-.page .uInfo:hover {
-    color: white;
-    cursor: auto;
-}
-
-.page li:hover ul {
-    position: block;
-    display: grid;
-    margin-top: 15px;
-}
-
-.page li ul {
+.forms li.hidden-row {
     display: none;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 15px;
-    column-gap: 15px;
-    position: relative;
-    border-radius: 8px;
-    margin: 40px 0;
 }
 
-.page li ul li,
-.page li ul li a {
+.forms fieldset .text-input {
+    color: #848484;
+    width: 300px;
+    height: 33px;
+    padding: 0 7px;
+    font-size: 12px;
     border: none;
-    margin-top: 15px;
-    width: 90%;
-    background-color: white;
-    border-radius: 8px;
-    color: #275978;
-    margin-left: 5%;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+    border: 1px solid #d5d5d5;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.uPic {
-    height: 20 0px;
+.forms label {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    float: left;
+    width: 70px;
+    padding-top: 8px;
+    font-size: 13px;
+    clear: both;
+}
+
+.form-container:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+ol {
+    list-style: decimal;
+    list-style-position: inside;
+    line-height: 20px;
+}
+
+ol li {
+    padding: 0;
+    margin: 0;
+}
+
+.forms fieldset {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forms ol {
+    list-style: none;
+}
+
+.line {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+    color: #606060;
+}
+
+a.button,
+.forms fieldset .btn-submit {
+    padding: 5px 25px;
+    text-align: center;
+    background: #9cc1e3 url(../images/button.png) repeat-x left center;
+    border: none;
+    height: 21px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #5c7fa0;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    line-height: 23px;
+    border: 1px solid #91aec8;
+    display: inline-block;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    font-family: "ClassicRound-Medium";
+    cursor: pointer;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
+}
+
+a.button.blue {
+    width: 100px;
+    margin-bottom: 5px;
+    background-color: #275978;
+    border: 1px solid #91aec8;
+    color: white;
+}
+
+a.button.blue:hover {
+    color: #5c7fa0;
+    background-color: #b2cfea;
+    color: #275978;
+}
+
+a.button.green {
+    margin-bottom: 5px;
+    width: 100px;
+    background-color: #776478;
+    border: 1px solid #85bbb1;
+    color: white;
+}
+
+a.button.green:hover {
+    background-color: #7764785b;
+    color: #275978;
+}
+
+a.button.red {
+    width: 100px;
+    margin-bottom: 5px;
+    background-color: #D962A3;
+    border: 1px solid #ac6376;
+    color: #275978;
+}
+
+a.button.red:hover {
+    background-color: rgba(217, 98, 163, 0.356);
+}
+
+.forms fieldset .text-input:focus,
+.forms fieldset .text-area:focus {
+    background-color: #fdfdfd;
+}
+
+.push {
+    height: 130px;
+    /* .push must be the same height as .footer */
+}
+
+.profile-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.one-third {
+    width: 32%;
+}
+
+.two-third {
+    width: 32%;
+}
+
+.room {
+    margin-left: 60%;
+}
+
+#nothing {
+    float: right;
+    margin-right: 13.5%;
 }
