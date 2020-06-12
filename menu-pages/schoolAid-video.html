@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <script src="../javascript/navigation.js"></script>
     <title>Видео урок</title>
 </head>
+
 <body>
     <nav id="navigation" class="navigation">
         <span class="closebtn" onclick="closeNav()">&#9776; Затвори меню</span>
@@ -16,7 +18,7 @@
                 <a href="../menu-pages/schoolAid-main.html"><span class="item">Начало</span></a>
             </li>
             <li>
-                <a class="dropdown" href="../menu-pages/schoolAid-course.html"><span class="item">Курсове</span></a>
+                <a href="../menu-pages/schoolAid-course.html"><span class="item">Курсове</span></a>
                 <ul>
                     <li>
                         <a href="../subject/bulgarian-course.html"><span class="item">Български език и литература</span></a>
@@ -60,6 +62,9 @@
                 <a href="../menu-pages/schoolAid-video.html"><span class="item">Видео уроци</span></a>
             </li>
             <li>
+                <a href="../menu-pages/schoolAid-forum.html"><span class="item">Форум</span></a>
+            </li>
+            <li>
                 <a href="../menu-pages/schoolAid-login.html"><span class="item">Профил</span></a>
             </li>
         </ul>
@@ -70,81 +75,82 @@
 
     <div id="content" class="content">
         <img class="logo" src="../img/logo.png">
-            <div class="page">
-                <img id="loading" src="../img/loading.gif">
-                <br>
-                <p id="work-with-school-aid-bg">Как се работи с SchoolAidBG
+        <div class="page">
+            <img id="loading" src="../img/loading.gif">
+            <br>
+            <p id="work-with-school-aid-bg">Как се работи с SchoolAidBG
                 <span><div class="rate-finished">
                         <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                </div>
-            </span></p>
-                <br>
-                <ul class="grid-video-lessons">
-                    <li>
-                        <img src="../img/loading.gif"><br><span class="title">Живота на Вазов</span>
-                        <div class="rate">
-                            <input type="radio" id="star5" name="rate" value="5" />
-                            <label for="star5" title="text">5 stars</label>
-                            <input type="radio" id="star4" name="rate" value="4" />
-                            <label for="star4" title="text">4 stars</label>
-                            <input type="radio" id="star3" name="rate" value="3" />
-                            <label for="star3" title="text">3 stars</label>
-                            <input type="radio" id="star2" name="rate" value="2" />
-                            <label for="star2" title="text">2 stars</label>
-                            <input type="radio" id="star1" name="rate" value="1" />
-                            <label for="star1" title="text">1 star</label>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="../img/loading.gif"><br><span class="title">Клетка и процесите в нея</span>
-                        <div class="rate">
-                            <input type="radio" id="star5" name="rate" value="5" />
-                            <label for="star5" title="text">5 stars</label>
-                            <input type="radio" id="star4" name="rate" value="4" />
-                            <label for="star4" title="text">4 stars</label>
-                            <input type="radio" id="star3" name="rate" value="3" />
-                            <label for="star3" title="text">3 stars</label>
-                            <input type="radio" id="star2" name="rate" value="2" />
-                            <label for="star2" title="text">2 stars</label>
-                            <input type="radio" id="star1" name="rate" value="1" />
-                            <label for="star1" title="text">1 star</label>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="../img/loading.gif"><br><span class="title">Континента - Азия</span>
-                        <div class="rate">
-                            <input type="radio" id="star5" name="rate" value="5" />
-                            <label for="star5" title="text">5 stars</label>
-                            <input type="radio" id="star4" name="rate" value="4" />
-                            <label for="star4" title="text">4 stars</label>
-                            <input type="radio" id="star3" name="rate" value="3" />
-                            <label for="star3" title="text">3 stars</label>
-                            <input type="radio" id="star2" name="rate" value="2" />
-                            <label for="star2" title="text">2 stars</label>
-                            <input type="radio" id="star1" name="rate" value="1" />
-                            <label for="star1" title="text">1 star</label>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="../img/loading.gif"><br><span class="title">Местоимения</span>
-                        <div class="rate">
-                            <input type="radio" id="star5" name="rate" value="5" />
-                            <label for="star5" title="text">5 stars</label>
-                            <input type="radio" id="star4" name="rate" value="4" />
-                            <label for="star4" title="text">4 stars</label>
-                            <input type="radio" id="star3" name="rate" value="3" />
-                            <label for="star3" title="text">3 stars</label>
-                            <input type="radio" id="star2" name="rate" value="2" />
-                            <label for="star2" title="text">2 stars</label>
-                            <input type="radio" id="star1" name="rate" value="1" />
-                            <label for="star1" title="text">1 star</label>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
         </div>
+        </span>
+        </p>
+        <br>
+        <ul class="grid-video-lessons">
+            <li>
+                <img src="../img/loading.gif"><br><span class="title">Живота на Вазов</span>
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                </div>
+            </li>
+            <li>
+                <img src="../img/loading.gif"><br><span class="title">Клетка и процесите в нея</span>
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                </div>
+            </li>
+            <li>
+                <img src="../img/loading.gif"><br><span class="title">Континента - Азия</span>
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                </div>
+            </li>
+            <li>
+                <img src="../img/loading.gif"><br><span class="title">Местоимения</span>
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
 </body>

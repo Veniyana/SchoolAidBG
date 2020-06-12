@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow-y: hidden;
-}
-
 .formContainer {
     margin-top: 1%;
     padding: 0;
@@ -185,21 +181,20 @@ input[type=checkbox]:checked:after {
 }
 
 .you_are {
-    margin-top:-15px;
+    margin-top: -15px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    color:white;
+    color: white;
 }
 
 .you_are label {
     margin: 0px 10px 0 -15px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
-    color:white
+    color: white
 }
 
 #student {
     margin-left: 20px;
 }
-

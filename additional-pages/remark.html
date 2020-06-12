@@ -17,7 +17,7 @@
                 <a href="../menu-pages/schoolAid-main.html"><span class="item">Начало</span></a>
             </li>
             <li>
-                <a class="dropdown" href="../menu-pages/schoolAid-course.html"><span class="item">Курсове</span></a>
+                <a href="../menu-pages/schoolAid-course.html"><span class="item">Курсове</span></a>
                 <ul>
                     <li>
                         <a href="../subject/bulgarian-course.html"><span class="item">Български език и литература</span></a>
@@ -61,6 +61,9 @@
                 <a href="../menu-pages/schoolAid-video.html" class="note"><span class="item">Видео уроци</span></a>
             </li>
             <li>
+                <a href="../menu-pages/schoolAid-forum.html"><span class="item">Форум</span></a>
+            </li>
+            <li>
                 <a href="../menu-pages/schoolAid-login.html" class="note"><span class="item">Профил</span></a>
             </li>
         </ul>
@@ -74,43 +77,37 @@
             <br>
             <h1>Забележки</h1>
             <br>
-            <div class="orderBy">
-                <table id="orderBy" style="width: 30%">
-                    <tr>
-                        <th>Подреди по:</th>
-                        <th>
-                            <input type="radio" id="date" name="orderBy" value="Дата">
-                            <label for="student">Дата</label>
-                            <input type="radio" id="course" name="orderBy" value="Предмет">
-                            <label for="teacher">Предмет</label>
-                        </th>
-                    </tr>
-                </table>
+            <div class="dropdown">
+                <span>Сортирай по:</span>
+                <div class="dropdown-content">
+                    <p>Дата</p>
+                    <p>Предмет</p>
+                </div>
             </div>
             <div class="grades">
                 <table style="width:99%">
-                  <tr>
-                    <th>Дата</th>
-                    <th>Предмет</th>
-                    <th>Забележка</th>
-                  </tr>
-                <tr>
-                    <td>15.03.2020</td>
-                    <td>История</td>
-                    <td>Обижда съочениците си.</td>
-                  </tr>
-                  <tr>
-                    <td>12.03.2020</td>
-                    <td>Физика</td>
-                    <td>Закъснава за час с 20 минути.</td>
-                  </tr>
-                  <tr>
-                    <td>20.05.2020</td>
-                    <td>Руски език</td>
-                    <td>Не е предадена домашна работа номер 3.</td>
-                  </tr>
+                    <tr>
+                        <th>Дата</th>
+                        <th>Предмет</th>
+                        <th>Забележка</th>
+                    </tr>
+                    <tr>
+                        <td>15.03.2020</td>
+                        <td>История</td>
+                        <td>Обижда съучениците си.</td>
+                    </tr>
+                    <tr>
+                        <td>12.03.2020</td>
+                        <td>Физика</td>
+                        <td>Закъснява за час с 20 минути.</td>
+                    </tr>
+                    <tr>
+                        <td>20.05.2020</td>
+                        <td>Руски език</td>
+                        <td>Не е предадена домашна работа номер 3.</td>
+                    </tr>
                 </table>
-            </div> 
+            </div>
         </div>
     </div>
 </body>
