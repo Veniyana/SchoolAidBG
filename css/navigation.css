@@ -199,6 +199,7 @@ ul.popular-posts li span a:hover {
 
 .latest-post {
     margin: 15px 0 0 30px;
+    position: block;
 }
 
 .subheader {
@@ -209,4 +210,9 @@ ul.popular-posts li span a:hover {
 ul {
     line-height: 1;
     list-style: none;
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: 75% 25%;
 }

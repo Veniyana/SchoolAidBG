@@ -1,55 +1,60 @@
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
-.content {
-  text-align: center;
+.subject {
+    font-size: 20px;
+    background-color: rgb(39, 88, 119, 0.4);
+    border-radius: 8px;
+    margin: 0 0 15px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.page {
-  position: absolute;
-  width: 100%;
+.first-ul,
+.second-ul {
+    margin: 30px;
 }
 
-.page li {
-  width: 80%;
-  padding: 15px 0;
-  list-style: none;
-  position: relative;
-  background-color: #275978;
-  color: white;
-  border-radius: 8px;
-  font-size: 25px;
-  font-weight: bold;
-  margin: 0 0 15px 10%;
+.subject ul li {
+    padding: 5px;
+    font-weight: bold;
 }
 
-.page li:hover {
-  color: #d962a3;
+.level::first-line {
+    text-align: center;
 }
 
-.page li:hover ul {
-  position: block;
-  display: grid;
-  margin-top: 15px;
+.subject ul li:hover {
+    color: #D962A3;
 }
 
-.page li ul {
-  display: none;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 15px;
-  column-gap: 15px;
-  position: relative;
-  border-radius: 8px;
-  margin: 40px 0;
+.second-ul ul {
+    color: black;
 }
 
-.page li ul li {
-  border: none;
-  margin-top: 15px;
-  width: 90%;
-  background-color: white;
-  border-radius: 8px;
-  color: #275978;
-  margin-left: 5%;
+.second-ul ul li {
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 50px;
+}
+
+.authors ul {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.authors ul li:hover {
+    color: #D962A3;
+}
+
+.authors ul li ul li {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.authors ul li ul li:hover {
+    color: #D962A3;
 }

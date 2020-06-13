@@ -1,0 +1,145 @@
+form {
+    background-color: rgb(39, 89, 120, 0.4);
+    margin: 0 15%;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+label[for=subject],
+label[for=name] {
+    margin-left: 30%;
+    font-weight: bold;
+    display: block;
+}
+
+input {
+    margin: 5px 5px 0 32%;
+    padding: 3px;
+}
+
+p {
+    margin-left: 30%;
+    font-weight: bold;
+}
+
+.choice-use input {
+    margin-left: 30%;
+}
+
+#no {
+    margin-left: 15%;
+}
+
+#key {
+    margin-left: 12%;
+}
+
+.red {
+    width: 100px;
+    margin-bottom: 5px;
+    background-color: #D962A3;
+    border: 1px solid #ac6376;
+    color: #275978;
+    margin-left: 40%;
+    margin-top: 15px;
+}
+
+.red:hover {
+    background-color: rgba(217, 98, 163, 0.356);
+}
+
+a.red {
+    text-align: center;
+    padding-top: 3px;
+    border: none;
+    height: 25px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    line-height: 23px;
+    border: 1px solid #91aec8;
+    display: inline-block;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    font-family: "ClassicRound-Medium";
+    cursor: pointer;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.option {
+    background-color: rgb(119, 100, 120, 0.4);
+    color: #275978;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 5%;
+    height: 450px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.option {
+    padding: 30px;
+}
+
+.option li {
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.option ul li {
+    font-weight: normal;
+    padding-top: 5px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.screen {
+    background-color: rgb(39, 89, 120, 0.8);
+    margin-right: 15px;
+}
+
+.screen p {
+    margin-top: 30px;
+    margin-left: 35%;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+.screen img {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 900px;
+}
+
+.enter-code form {
+    position: absolute;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 20%;
+    background-color: rgb(39, 89, 120, 0.9);
+}
+
+.enter-code form label[for="key"] {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 140px;
+    padding: 0;
+}
+
+.enter-code form input[name="key"] {
+    margin-left: 30%;
+}
