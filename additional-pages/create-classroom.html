@@ -9,7 +9,8 @@
     <title>Създай класна стая</title>
 </head>
 
-<body>
+<body style="background: url(../img/classroom-enter.jpg) no-repeat center;
+background-size: cover; height: 800px; overflow: hidden;">
     <nav id="navigation" class="navigation">
         <span class="closebtn" onclick="closeNav()">&#9776; Затвори меню</span>
         <ul>
@@ -20,7 +21,8 @@
                 <a href="../menu-pages/schoolAid-course.html"><span class="item">Курсове</span></a>
                 <ul>
                     <li>
-                        <a href="../subject/bulgarian-course.html"><span class="item">Български език и литература</span></a>
+                        <a href="../subject/bulgarian-course.html"><span class="item">Български език и
+                                литература</span></a>
                     </li>
                     <li>
                         <a href="../subject/math-course.html"><span class="item">Математика</span></a>
@@ -79,32 +81,32 @@
 
 
     <div id="content" class="content">
-        <img class="logo" src="../img/logo.png">
-        <h1 class="header">Създаване на класна стая</h1>
-        <form class="form">
-            <label for="subject">Учебен предмет<br></label>
-            <input type="text" name="subject" placeholder="Учебен предмет">
-            <label for="name"><br>Име на класната стая<br></label>
-            <input type="text" name="name" placeholder="Име на класната стая">
-            <p id="use"><br>Еднокватно ли ще ползвате стаята
-                <div class="choice-use">
+        <div class="create-classroom">
+            <form class="form">
+                <label for="subject">Учебен предмет<br></label>
+                <input type="text" name="subject" placeholder="Учебен предмет">
+                <label for="name"><br>Име на класната стая<br></label>
+                <input type="text" name="name" placeholder="Име на класната стая">
+                <p id="use"><br>Еднокватно ли ще ползвате стаята
+                    <div class="choice-use">
 
-                    <input type="radio" id="yes" value="Ученик">
-                    <label for="student">Да</label>
-                    <input type="radio" id="no" value="Учител">
-                    <label for="teacher">Не</label>
-                </div>
-            </p>
-            <p id="use"><br>Добавяне на участници в стаята чрез
-                <div class="choice-use">
-                    <input type="radio" id="link" value="Ученик">
-                    <label for="student">С линк</label>
-                    <input type="radio" id="key" value="Учител">
-                    <label for="teacher">С ключ
-                </label>
-                </div>
-            </p>
-            <a class="red" href="../additional-pages/enter-classroom.html">Създай стая</a>
-        </form>
+                        <input type="radio" id="yes" value="Ученик">
+                        <label for="student">Да</label>
+                        <input type="radio" id="no" value="Учител">
+                        <label for="teacher">Не</label>
+                    </div>
+                </p>
+                <p id="use"><br>Добавяне на участници в стаята чрез
+                    <div class="choice-use">
+                        <input type="radio" id="link" value="Ученик">
+                        <label for="student">С линк</label>
+                        <input type="radio" id="key" value="Учител">
+                        <label for="teacher">С ключ
+                        </label>
+                    </div>
+                </p>
+                <a class="red" href="../additional-pages/enter-classroom.html">Създай стая</a>
+            </form>
+        </div>
     </div>
 </body>

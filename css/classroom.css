@@ -133,6 +133,14 @@ body {
     background-color: rgb(39, 89, 120, 0.9);
 }
 
+.create-classroom form{
+    position: absolute;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: rgb(39, 89, 120, 0.9);
+}
+
 .enter-code form label[for="key"] {
     font-weight: bold;
     font-size: 30px;
